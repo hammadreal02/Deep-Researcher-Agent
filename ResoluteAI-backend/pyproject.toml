@@ -1,0 +1,14 @@
+[project]
+name = "resoluteai-backend"
+version = "0.1.0"
+description = "ResoluteAI - Deep Research Agent Backend"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.2.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.34.0",
+    "python-dotenv>=1.1.1",
+    "tavily-python>=0.5.0",
+    "sse-starlette>=2.2.0",
+]
